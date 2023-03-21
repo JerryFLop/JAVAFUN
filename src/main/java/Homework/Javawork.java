@@ -86,10 +86,20 @@ public class Javawork {
         }*/
 
         int[] numbersArray = {2, 34, 7, 48, 0, 13, 24};
+            int sum =0;
 
-        for(int i = 0; i <= 24 ; i++) {
-            System.out.println(i);
-        }
+        System.out.println("Elements of given array: ");
+
+
+       for(int i=0;i< numbersArray.length; i++){
+           System.out.println(numbersArray[i] + " ");
+
+       }
+       for (int i : numbersArray ) sum += i; {
+               System.out.println("the sum is " + sum);}
+
+
+
 
 
 
