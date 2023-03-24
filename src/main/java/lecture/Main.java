@@ -1,8 +1,28 @@
 package lecture;
 
 public class Main {
-    public static void main(String[] args) {
-        String productName;  //declare a variable
+
+    public static void calculateDiscount(double price, int discountAmount, String productName){
+        double discountPercentage = (price * discountAmount /100);
+        System.out.println("discount is " + discountPercentage);
+        double finalPrice = price - discountPercentage;
+
+        System.out.println("Your " + productName + " after discounts is  $" + finalPrice);
+    }
+
+    /*public static double areaofcircle(double radius) {
+         return Math.PI * (radius) * (radius);
+
+     }*/
+    public static void main(String[] args){
+
+         calculateDiscount(100.00,10,"Gucci Bag");
+         calculateDiscount(200.00,23,"Prada shoe");
+
+
+       // System.out.println(areaofcircle(10));
+        //System.out.println(areaofcircle(22.5f));
+       /* String productName;  //declare a variable
         int quantity = 2;
         long productID = 1234567891;
         float price = 20.0f;
@@ -96,6 +116,11 @@ public class Main {
 
 
         }
+  int x = 1;
+    while ( x< 5){
+        System.out.println("Now serving custmers numbers" + x);
+        x++;
+    }*/
 
 
 
