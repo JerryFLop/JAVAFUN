@@ -10,9 +10,9 @@ public class AnimalKingdome {
         dog.MakeAnimalSound();
 
         Cat cat = new Cat("Molly", "Siberian");
-        //cat.makeAnimalSound();
+         //cat.makeAnimalSound();
 
-        // Animal.printAnimalName(cat);
+         //Animal.printAnimalName(cat);
 
         //create an array of Animals
         Animal[] animalsArray = {dog, cat};

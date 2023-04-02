@@ -1,22 +1,28 @@
 package school;
 
-public class Student { private int id; // Global variable
-    private String name; //instance variables
+public class Student {
+    private  int id;
+    private String name;
 
-    //constructors  a student
-    public Student(int id, String name){
-        this.id = id;
+    private static int uniqueID = 0;
+
+    public Student( String name){
+        id = ++uniqueID;
         this.name = name;
     }
 
-    //getters
+    public void printID(){
+        System.out.println(id);
+    }
+
+//    public static void printID(){
+//        System.out.println(uniqueID);
+//    }
+
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;

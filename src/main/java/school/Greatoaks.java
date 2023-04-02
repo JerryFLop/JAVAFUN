@@ -2,16 +2,28 @@ package school;
 
 public class Greatoaks {
     public static void main(String[] args) {
-        Student student1 = new Student(1,"Mike");
-        Student student2 = new Student(2, "Jane");
+            Student student1 = new Student("Mike");
+            student1.printID();
+
+            //Student.printID();
 
 
-        //student1.setId(100);
+            Student student2 = new Student( "Jane");
+            // Student.printID();
+            student2.printID();
 
-        System.out.println(student1.getId());
-        System.out.println(student2.getId());
+            Student student3 = new Student( "Rakim");
+            //Student.printID();
+            student3.printID();
 
-    }
+
+
+            //static method
+            //ClassName.methodNAme();
+
+
+
+        }
     //Data Type referenceVariable;
 
 }
