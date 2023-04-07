@@ -6,15 +6,13 @@ public class Cat extends Feline implements IPet{
     }
 
     @Override
-    public void MakeAnimalSound() {
+    public void makeAnimalSound() {
         System.out.println("meow meow");
-
     }
-
-
 
     @Override
-    public void Greetowner() {
-        System.out.println("meow loudly");
+    public void greetOwner() {
+        System.out.println("Scratch your face");
     }
+
 }

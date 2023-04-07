@@ -1,18 +1,16 @@
 package animalkingdom;
 
 public class AnimalKingdome {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         //Make an instance / object / reference variable
-//        Animal animal1 = new Animal("jackie", "corgi");
-//        Animal animal2 = new Animal("bingo", "German Shepard");
 
-        Dog dog = new Dog("jakie","pitbull");
-        dog.MakeAnimalSound();
+        Dog dog = new Dog("jackie", "Corgi");
+        //dog.makeAnimalSound();
 
         Cat cat = new Cat("Molly", "Siberian");
-         //cat.makeAnimalSound();
+        //cat.makeAnimalSound();
 
-         //Animal.printAnimalName(cat);
+         Animal.printAnimalName(cat);
 
         //create an array of Animals
         Animal[] animalsArray = {dog, cat};
@@ -24,9 +22,14 @@ public class AnimalKingdome {
         //create an array of Pets
         IPet[] petsArray = {dog, cat, roboDog};
         Animal.printPetGreeting(petsArray);
-//        animal1.MakeAnimalSound();
-//        animal1.setName("rob");
-//        System.out.println(animal1.getName());
+
+//        animal2.setName("rambo");
+//        System.out.println(animal2.getName());
+//
+//        //call or invoke methods on these objects
+//        //objectName.methodName();
+//        animal1.makeAnimalSound();
+//        animal2.makeAnimalSound();
 
     }
 }

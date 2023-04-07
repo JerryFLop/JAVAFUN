@@ -6,9 +6,9 @@ public class Ten {
 //    The method does not accept any parameters and does not return a value.
 //    It should just print your full name.
 
-  /* public static void printName(){
-       System.out.println("Jeremiah" + "Paredes");
-           }  */
+   public static void printName(){
+       System.out.println("Jeremiah " + "Paredes");
+           }
 
 //    Question 2:
 //    create a static method named greetUser.
@@ -17,10 +17,10 @@ public class Ten {
 //    Call or invoke your method.
 //
 
-   /*public static String greetUser(String username ){
+   public static String greetUser(String username ){
    String greetUser = "Welcome to my website";
-   return greetUser;
-    } */
+   return greetUser + username;
+    }
 
 
 //    Question 3:
@@ -36,9 +36,33 @@ public class Ten {
 //    The method does not return any values. It should just print out your hobbies when invoked
 //  Call or invoke your method.
 
-    public static void myHobbies(String[] {"Video gmaes","sports","music"};){
-        ;
-    System.out.println(hobbies);}
+//    public static void myHobbies(String[] {"Video gmaes","sports","music"};){
+//
+//    System.out.println(hobbies);}
+
+
+//    Question 5:
+//    create a static method named checkWeather.
+//    The method accepts two parameters String weatherCondition and an int temperature.
+//    The method will RETURN one of the values below based on the weather condition
+//
+//  - if weatherCondition is hot and temperature is greater than 80 - " Wear shorts "
+//            - if weatherCondition is cool and temperature is greater than 50  - " Wear wind breakers "
+//            - if weatherCondition is cold and temperature is below 50 - " Wear a jacket "
+//            - if weatherCondition is anything else -  " No such weather condition "
+//
+//    Call or invoke your method.
+
+
+
+
+//    Question 6:
+//    create a static method named areaOfTriangle.
+//    The method accepts two parameters (base and height)
+//    The method should just return the computed area of the triangle
+//    Call or invoke your method.
+
+
 
 
 
@@ -46,7 +70,16 @@ public class Ten {
 
     public static void main(String[] args) {
 
-        myHobbies();
+
+
+
+
+
+
+
+
+
+        //        myHobbies();
 
 
 
@@ -59,9 +92,9 @@ public class Ten {
 
 
 
-//        printName();
+        printName();
 
-//    System.out.println(greetUser(" Jeremiah"));
+   System.out.println(greetUser(" Jeremiah"));
 
 
 

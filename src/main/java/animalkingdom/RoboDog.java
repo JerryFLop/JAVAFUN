@@ -2,7 +2,7 @@ package animalkingdom;
 
 public class RoboDog implements IPet{
     @Override
-    public void Greetowner() {
+    public void greetOwner() {
         System.out.println("wark wark");
     }
 }
