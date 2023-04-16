@@ -1,7 +1,10 @@
 package work;
 
-public class Main {
+import java.util.ArrayList;
+import java.util.List;
 
+public class Main {
+    private List<String> urlList;
     public static void main(String[] args) {
 //an instance of hourly employee
         //instance, object, reference variable
@@ -49,10 +52,46 @@ public class Main {
 
 
 
-
+//        ArrayList<Integer> listOfNumbers  = new ArrayList<>();
+//        listOfNumbers.add(1);
+//        listOfNumbers.add(11);
+//        listOfNumbers.add(1111);
+//        listOfNumbers.add(11111);
+//        listOfNumbers.add(111111);
+//        listOfNumbers.add(11111111);
+//        listOfNumbers.add(1111111111);
+//        System.out.println(listOfNumbers.contains(2));
+//          List<String> urlList = new ArrayList<>();
+//        urlList.add("https://pluralsight.com/search?q=java");
+//        urlList.add("https://medium.com/search?q=java");
+//        urlList.add("https://stackoverflow.com/questions/tagged/java");
+//        urlList.add("https://stackoverflow.com/search?q=java+list");
+//        urlList.add("https://reddit.com/r/java");
+//        urlList.add("https://reddit.com/r/javahelp");
+//
+//
+//
+//
+//        System.out.println("Links from stackoverflow.com:");
+//        for (String u : urlList){
+//            if ( u.contains("stackoverflow.com")){
+//                System.out.println(u);
+//            }
+//
+//        }
+//
+//        boolean del = urlList.remove("https://medium.com/search?q=java");
+//        System.out.println("Removed Medium result: " + del);
+//        System.out.println(urlList);
+//
+//
+//
+//
+//
+        }
 
 
     }
 
-        }
+
 
