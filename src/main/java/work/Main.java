@@ -15,8 +15,9 @@ public class Main {
         Cloth[] arrayOfClothingItems = {clothingItem1, clothingItem2, clothingItem3};
 
         HourlyEmployee hourlyEmployee = new HourlyEmployee( "mike", 15.0, 40.0,arrayOfClothingItems );
+
         SalaryEmployee salariedEmployee = new SalaryEmployee( "jane", 1000.0, arrayOfClothingItems);
-        Entreprenuer entrepreneur = new Entreprenuer("Money Ray", 100.0, 20.0, arrayOfClothingItems);
+        Entreprenuer entrepreneur = new Entreprenuer("Money Ray ", 100.0, 20.0, arrayOfClothingItems);
 
         //invoke or call or use  the print bade method on the hourly and salaried employees
         //ObjectName.nameOfMethod();
@@ -25,14 +26,15 @@ public class Main {
         System.out.println("=================");
         salariedEmployee.printBadge();
 
-        System.out.println(entrepreneur);
+//        System.out.println(entrepreneur);
 
         //Create an array of peeps that are payable
         Person[] people = {hourlyEmployee, salariedEmployee, entrepreneur};
 
         //invoke the static printPayMethod
         //static methods belong to the Class NOT the object
-        Person.printPay(people);
+//        Person.printPay(people);
+
 
 
 
@@ -48,7 +50,7 @@ public class Main {
 
         Manager manager = new Manager("Tom", arrayOfClothingItems);
         System.out.println(manager.calculateDiscount(clothingItem1));
-        System.out.println(hourlyEmployee.calculateDiscount(clothingItem1));
+        System.out.println(hourlyEmployee.calculateDiscount(clothingItem2));
 
 
 
