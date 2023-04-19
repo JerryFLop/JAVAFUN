@@ -18,4 +18,20 @@ public class CalculatorTest {
         //Then
         Assert.assertEquals(expected,actual);
     }
+
+    @Test
+    public void subtractTest(){
+        Calculator calculator = new Calculator();
+        int val2= 10;
+        int val1 = 7;
+        int expected = val2 + val1;
+        //when
+        int actual = calculator.subtract(val1, val2);
+        //Then
+        Assert.assertEquals(expected,actual);
+    }
+
+
+
+
 }
