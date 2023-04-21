@@ -51,7 +51,8 @@ public class Main {
         Manager manager = new Manager("Tom", arrayOfClothingItems);
         System.out.println(manager.calculateDiscount(clothingItem1));
         System.out.println(hourlyEmployee.calculateDiscount(clothingItem2));
-
+        System.out.println(Math.pow(20,2));
+        System.out.println(Math.exp(20));
 
 
 //        ArrayList<Integer> listOfNumbers  = new ArrayList<>();
