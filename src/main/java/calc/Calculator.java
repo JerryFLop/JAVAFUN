@@ -43,7 +43,7 @@ public int add(int value1, int value2){
     }
 
 public double exponent(int value1, double value2){
-    return value1  Math.exp(value2);
+    return Math.exp(value2);
 }
   //multiply
   //divide
