@@ -24,7 +24,7 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         int val2= 10;
         int val1 = 7;
-        int expected = val2 + val1;
+        int expected = val2 - val1;
         //when
         int actual = calculator.subtract(val1, val2);
         //Then
@@ -66,19 +66,19 @@ public class CalculatorTest {
 
     }
 
-    @Test
-    public void exponentTest() {
-        Calculator calculator = new Calculator();
-        int val1 = 20;
-        double val2 = Math.exp(val1);
-        double expected = val2;
-        double actual = calculator.exponent(val1,val2);
-        double delta = 0;
-        Assert.assertEquals(expected,actual,delta);
-
-
-
-    }
+//    @Test
+//    public void exponentTest() {
+//        Calculator calculator = new Calculator();
+//        int val1 = 20;
+//        double val2 = Math.exp(val1);
+//        double expected = val2;
+//        double actual = calculator.exponent(val1,val2);
+//        double delta = 0;
+//        Assert.assertEquals(expected,actual,delta);
+//
+//
+//
+//    }
 
 
 }

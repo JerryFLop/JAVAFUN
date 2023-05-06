@@ -36,7 +36,7 @@ public class Ten {
 //    The method does not return any values. It should just print out your hobbies when invoked
 //  Call or invoke your method.
 
-//    public static void myHobbies(String[] {"Video gmaes","sports","music"};){
+//    public static void myHobbies(String[] hobbies ){
 //
 //    System.out.println(hobbies);}
 
@@ -79,7 +79,7 @@ public class Ten {
 
 
 
-        //        myHobbies();
+//              myHobbies();
 
 
 

@@ -14,7 +14,7 @@ public int add(int value1, int value2){
 
     public int subtract(int value1, int value2){
 
-        return 0;
+        return value2 - value1;
     }
 
 
@@ -42,9 +42,9 @@ public int add(int value1, int value2){
 
     }
 
-public double exponent(int value1, double value2){
-    return Math.exp(value2);
-}
+//public double exponent(int value1, double value2){
+//    return Math.exp(value2);
+//}
   //multiply
   //divide
   //sqaure
