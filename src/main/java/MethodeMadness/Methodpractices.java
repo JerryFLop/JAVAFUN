@@ -1,6 +1,7 @@
 package MethodeMadness;
 
 import java.lang.reflect.Array;
+import java.util.Locale;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -83,7 +84,17 @@ public static int randomNumber(){
 
 public static void userName (){
     Scanner scanner = new Scanner(System.in);
-     
+
+    System.out.println("Enter username");
+    String name = scanner.nextLine();
+
+    if (name.equals("Aliyah")){
+        System.out.println("Hello Aliyah");
+    } else if (name.equals("Hakeem")) {
+        System.out.println("Hello Hakeem");
+    }else {
+        scanner.close();
+    }
 
 }
 
@@ -99,7 +110,7 @@ public static void main(String[] args) {
     System.out.println(checkWeather("cool",70));
     System.out.println(triangleArea(20,30));
     randomNumber();
-
+userName();
 
     }
 
