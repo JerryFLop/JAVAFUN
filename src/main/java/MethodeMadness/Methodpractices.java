@@ -85,16 +85,21 @@ public static int randomNumber(){
 public static void userName (){
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Enter username");
-    String name = scanner.nextLine();
+    do{
+        System.out.println("Enter username");
+        String name = scanner.nextLine();
 
-    if (name.equals("Aliyah")){
-        System.out.println("Hello Aliyah");
-    } else if (name.equals("Hakeem")) {
-        System.out.println("Hello Hakeem");
-    }else {
-        scanner.close();
+        if (name.equals("Aliyah")){
+            System.out.println("Hello Aliyah");
+        } else if (name.equals("Hakeem")) {
+            System.out.println("Hello Hakeem");
+        }else {
+            scanner.close();
+        }
+
     }
+
+    while ();
 
 }
 
