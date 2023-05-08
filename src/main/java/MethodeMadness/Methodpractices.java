@@ -1,6 +1,8 @@
 package MethodeMadness;
 
 import java.lang.reflect.Array;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Methodpractices {
 public static void printName(){
@@ -22,10 +24,8 @@ public static void myHobbies(String[] hobbies){
         }
 }
 public static String checkWeather(String weatherCondition, int temperature){
-//    String w = weatherCondition;
-//    int t = temperature;
 
-    System.out.println("The weather is: " + weatherCondition+ " And the temperature is : " + temperature );
+    System.out.print("The weather is: " + weatherCondition+ ", And the temperature is : " + temperature + ", so :" );
 
     if(weatherCondition.equals("cot")  && temperature > 80 ){
         return " Wear shorts ";
@@ -36,12 +36,56 @@ public static String checkWeather(String weatherCondition, int temperature){
            else {
                return    " No such weather condition";
        }
+}
+public static int triangleArea(int base , int height){
 
+    int area = base * height /2;
+    System.out.print("Area of the triangle is: ");
 
-
+    return area;
 }
 
+public static int randomNumber(){
+    Random random = new Random();
+    int randomNumbers = random.nextInt(6) + 1;
 
+    switch (randomNumbers) {
+        case 1:
+            System.out.println("you rolled a one");
+        break;
+        case 2:
+            System.out.println("you rolled a two");
+            break;
+        case 3:
+            System.out.println("you rolled a three");
+
+            break;
+        case 4:
+            System.out.println("you rolled a four");
+            break;
+        case 5:
+            System.out.println("you rolled a five");
+            break;
+        case 6:
+            System.out.println("you rolled a six");
+        break;
+
+
+
+
+    }
+
+
+
+
+    return randomNumbers;
+}
+
+public static void userName (){
+    Scanner scanner = new Scanner(System.in);
+     
+
+}
 
 
 
@@ -52,7 +96,11 @@ public static void main(String[] args) {
     System.out.println(buyCoffee(5));
     String[] myhobbies ={"video games", "music","Sports" } ;
     myHobbies(myhobbies);
-    System.out.print(checkWeather("cool",70));
+    System.out.println(checkWeather("cool",70));
+    System.out.println(triangleArea(20,30));
+    randomNumber();
+
+
     }
 
 }
